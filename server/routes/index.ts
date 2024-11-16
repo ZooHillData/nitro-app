@@ -1,4 +1,4 @@
-import { getQuery } from "h3"
+import { getRequestURL } from "h3"
 
 export default eventHandler((event) => {
   const url = getRequestURL(event);
